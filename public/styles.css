@@ -1,0 +1,115 @@
+body {
+  background-color: black;
+  font-family: "Helvetica";
+}
+
+h2 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #ffffff;
+}
+
+#video-chat-lobby {
+  text-align: center;
+  max-width: 600px;
+  background-color: #141414;
+  margin: 30px auto;
+}
+
+#chat-window {
+  height: 400px;
+  overflow: auto;
+  background: #f9f9f9;
+}
+
+#output p {
+  padding: 14px 0px;
+  margin: 0 20px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #555;
+}
+
+#feedback p {
+  color: #aaa;
+  padding: 14px 0px;
+  margin: 0 20px;
+}
+
+#output strong {
+  color: #000000;
+}
+
+label {
+  box-sizing: border-box;
+  display: block;
+  padding: 10px 20px;
+}
+
+input {
+  padding: 20px;
+  box-sizing: border-box;
+  background: #eee;
+  display: block;
+  width: 100%;
+  background: rgb(255, 253, 253);
+  font-family: Nunito;
+  font-size: 16px;
+}
+
+#join {
+  background: #141414;
+  color: #fff;
+  font-size: 18px;
+  padding: 12px 0;
+  width: 100%;
+}
+
+h3 {
+  font-size: 18px;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+#video-chat-room {
+  display: flex;
+  justify-content: center;
+}
+
+#user-video{
+  padding: 10px;
+}
+
+#peer-video{
+  padding: 10px;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-group button {
+  background-color: #141414; /* Green background */
+  border: 1px solid white; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: left; /* Float the buttons side by side */
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #000000;
+}
